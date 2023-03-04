@@ -1,0 +1,26 @@
+/* secondNav */
+.secondNav {
+  /* border: 1px dashed black; */
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  margin-bottom: 9px;
+  /* flex-wrap: nowrap; */
+}
+.insidebox {
+  /* border: 1px dashed black; */
+  flex-grow: 1;
+  line-height: 3;
+  height: 45px;
+}
+.insidebox a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+}
+
+
+.box1 {
+  background-color: #c4eeea;
+}

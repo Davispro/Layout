@@ -1,0 +1,33 @@
+#mainImg {
+  width: 100%;
+  height: auto;
+}
+
+#mainImg .container {
+  /* border: 1.5px dashed black; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 300px;
+  background-color: #ccc;
+  margin: 0;
+  padding-top: 15px;
+}
+
+.imgWrap1 {
+  /* border: 1.5px dashed black; */
+  background: url(../projectImages/1111png.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 0px auto;
+  width: 100%;
+  aspect-ratio: 12/5;
+}
+
+.imgWrap2 {
+  width: 100%;
+  /* border: 1.5px dashed black; */
+  margin: 15px 0px;
+  background: url(../projectImages/menberPoint.png) no-repeat;
+  background-size: 100% 100%;
+  height: 100px;
+}

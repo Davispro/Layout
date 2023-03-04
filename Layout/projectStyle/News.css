@@ -1,0 +1,145 @@
+#News .row{
+
+  display: flex;
+  
+}
+#News .col1{
+  width: 57%;
+}
+
+
+
+#News .content1{
+  display: flex;
+  align-content:space-around;
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+
+#News .contentEnd{
+  display: flex;
+  margin-bottom: 50px;
+}
+
+#News .date{
+  /* border: 1px dashed rgb(185, 185, 69); */
+  padding-top: 5px;
+  width: 13%;
+  font-size: 13px;
+  text-align: left;
+}
+
+#News .content2{
+  /* border: 1px dashed rgb(185, 185, 69); */
+  width: 87%;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.content2 a{
+  text-decoration: none;
+  color: rgb(0, 158, 150);
+  font-weight:550;
+}
+
+.more{
+  /* display: flex; */
+  /* flex-flow: row; */
+  /* justify-content: center; */
+  /* border: 1px dashed rgb(185, 185, 69); */
+  width: auto;
+}
+
+.more .button{
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: relative;
+  width: 250px;
+  padding: 9px 35px;
+  margin: 0px auto;
+  margin-bottom: 100px;
+  text-decoration: none;
+  color: black;
+}
+
+.more .button::after{
+  position: absolute;
+  content: "";
+  background: url(../projectImages/arrow.png) center center no-repeat;
+  transform: rotate(90deg);
+  background-size: 100% 100%;
+  width: 15px;
+  height: 15px;
+  right: 15px;
+}
+
+#News .col2{
+  /* border: 1px dashed rgb(185, 185, 69); */
+  width: 43%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.col2 .appIcon{
+  width: 75px;
+  height: 75px;
+  margin: 0px 30px;
+}
+
+.new2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col2 .qrIcon{
+  margin: 15px;
+  width: 100px;
+  height: 100px;
+} 
+
+.col2 .storeIcon{
+  margin: 11px 0 0 11px;
+  width: 150px;
+  height: auto;
+}
+
+.col2 .social{
+  margin: 13px;
+  width: 60px;
+  height: 60px;
+}
+
+.new1{
+  /* border: 1px dashed rgb(185, 185, 69); */
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 376px){
+  #News .col1{
+    width: 100%;
+    padding: 0px ;
+  }
+
+  #News .col2{
+    width: 100%;
+  }
+
+  #News .content1, .contentEnd{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #News .date{
+    width: 100%;
+  }
+  #News .content2{
+    width: 100%;
+  }
+
+}

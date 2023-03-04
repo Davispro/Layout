@@ -1,0 +1,64 @@
+#CommandShop .row1 {
+  /* border: 1.5px dashed #ccc; */
+  display: flex;
+  margin-bottom: 50px;
+}
+
+#CommandShop .container {
+  /* border: 1.5px dashed #ccc; */
+  width: 100%;
+  padding-top: 15px;
+}
+
+#CommandShop .col {
+  /* border: 1.5px dashed #ccc; */
+  object-fit: fill;
+  width: 16.66666%;
+  height: 350px;
+  padding: 0px 5px;
+  text-align: left;
+}
+
+#CommandShop .imgWrap {
+  width: 100%;
+  aspect-ratio: 1/1;
+  /* background-color: #ccc; */
+  overflow: hidden;
+}
+
+#CommandShop img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.star{
+  display: flex;
+  flex-direction: row;
+}
+
+.btnHeart{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btnHeart2{
+  display: none;
+}
+
+@media screen and (max-width: 376px) {
+  #CommandShop .row1 {
+    flex-wrap: wrap;
+  }
+  #CommandShop .col {
+    width: 33.333333%;
+  }
+  .btnHeart{
+    display: none;
+  }
+  .btnHeart2{
+    display:flex;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
