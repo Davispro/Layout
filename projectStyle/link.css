@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 @import url(./_top.css);
-@import url(./_topNav.css);
+@import url(./topNav.css);
 @import url(./_secondNav.css);
 @import url(./_mainImg.css);
 @import url(./_CommandShop.css);
